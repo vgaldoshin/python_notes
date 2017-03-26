@@ -9,3 +9,10 @@ STATIC_URL = '/static/'
 В urls.py:
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns += staticfiles_urlpatterns()
+
+
+Обращение к файлам из шаблонов:
+{% load staticfiles %}
+<img src="{% static "my_app/myexample.jpg" %}" alt="My image"/>
+
+https://djbook.ru/rel1.6/howto/static-files/index.html
