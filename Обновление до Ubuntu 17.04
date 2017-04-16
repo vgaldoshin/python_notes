@@ -4,3 +4,6 @@ https://habrahabr.ru/company/selectel/blog/326408/
 Отвалилась сеть.
 sudo lshw -C network
 sudo dhclient -v enp6s0
+
+Установка GNOME
+https://losst.ru/ustanovka-gnome-v-ubuntu-16-04
