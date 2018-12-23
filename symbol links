@@ -1,1 +1,4 @@
 ln -s /usr/bin/python3 /usr/bin/python
+
+Как добавить алиас
+http://ubuntu.fliplinux.com/python-x.html
